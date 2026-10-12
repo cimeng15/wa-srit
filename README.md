@@ -1,8 +1,8 @@
-# WaLite
+# Wa-Srit!
 
 Aplikasi desktop **WhatsApp Web ringan untuk Windows** — dibangun dengan **Tauri 2 + WebView2** (system webview), bukan browser penuh, sehingga konsumsi RAM jauh lebih rendah dibanding membuka Chrome/Edge untuk WhatsApp Web.
 
-> WaLite adalah wrapper resmi dari sisi teknologi: aplikasi tetap memuat `https://web.whatsapp.com` di jendela aplikasi sendiri (tanpa toolbar browser). Tidak ada implementasi protokol WhatsApp.
+> Wa-Srit! adalah wrapper resmi dari sisi teknologi: aplikasi tetap memuat `https://web.whatsapp.com` di jendela aplikasi sendiri (tanpa toolbar browser). Tidak ada implementasi protokol WhatsApp.
 
 ## Kenapa ringan?
 
@@ -32,7 +32,7 @@ Jalur build utama adalah **GitHub Actions** (runner `windows-latest`) — tidak 
    ```
 
 3. Tab **Actions**: workflow `build` dan `release` berjalan (~15 menit pertama kali).
-   - Artifact `walite-windows-installer`: `WaLite_0.1.0_x64_en-US.msi` + `WaLite_0.1.0_x64-setup.exe`
+   - Artifact `wa-srit-windows-installer`: `Wa-Srit_0.1.0_x64_en-US.msi` + `Wa-Srit_0.1.0_x64-setup.exe`
    - Halaman **Releases** menampilkan rilis `v0.1.0` dengan kedua installer.
 
 Build manual juga bisa dijalankan dari tab **Actions → build → Run workflow** (`workflow_dispatch`), tanpa membuat tag.

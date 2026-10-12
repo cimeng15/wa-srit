@@ -1,15 +1,15 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "WaLite",
+  "productName": "Wa-Srit",
   "version": "0.1.0",
-  "identifier": "id.smkdata.walite",
+  "identifier": "id.smkdata.wa-srit",
   "build": {
     "frontendDist": "../src"
   },
   "app": {
     "windows": [
       {
-        "title": "WaLite",
+        "title": "Wa-Srit!",
         "url": "https://web.whatsapp.com",
         "width": 1100,
         "height": 750,

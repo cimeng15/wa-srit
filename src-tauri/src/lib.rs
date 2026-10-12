@@ -22,7 +22,7 @@ pub fn run() {
             let menu = Menu::with_items(app, &[&show, &quit])?;
 
             let _tray = TrayIconBuilder::with_id("main")
-                .tooltip("WaLite")
+                .tooltip("Wa-Srit!")
                 .menu(&menu)
                 .on_menu_event(|app, event| match event.id.as_ref() {
                     "show" => {
