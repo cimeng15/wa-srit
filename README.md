@@ -50,3 +50,13 @@ Build manual juga bisa dijalankan dari tab **Actions → build → Run workflow*
 Lihat hasil pengukuran dan metode di [`tests/ram-smoke.md`](tests/ram-smoke.md).
 
 Ekspektasi realistis: browser penuh ~700–1200 MB aktif untuk satu tab WhatsApp Web; Tauri+WebView2 umumnya ~250–500 MB (target: < 60% dari jalur browser).
+
+## Privacy Blur
+
+Fitur blur privasi (seperti extension Chrome) — blur isi pesan, nama kontak, dan foto profil; arahkan kursor ke elemen untuk melihatnya jelas.
+
+- **Toggle**: klik ikon tray → **Privacy Blur** (checkmark = aktif)
+- State tersimpan otomatis dan bertahan setelah app ditutup
+- Hover pada pesan/kontak = konten terlihat jelas kembali
+
+Catatan: selector CSS mengikuti struktur DOM WhatsApp Web; jika WhatsApp update UI dan blur berhenti bekerja, perbarui selector di `src-tauri/src/privacy-blur.js`.
